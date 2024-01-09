@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+.npm {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.borde { 
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.logo {
+width: 100px;
+height: 100px;
+}
+.try input[type="text"] {
+    width: 1500px;
+    background-image: url(/lab-html-exercise/images/magnifying-glass.png);
+    height: 30px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.try label[for=search]{
+    background-color: red;
+    padding: 9px 10px;
+    color: white;
+}
+.borde a {
+    text-decoration: none;
+    color: black;
+}
+.enlace {
+    border: 2px solid #C6BCBC;
+    padding: 5px 20px;
+
+}
+#build {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faf4f4;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+h1{
+    font-size: 100px;
+    font-weight: 900
+}
+.essential {
+  font-size: 25px;
+  width: 35%;
+  text-align: center;
+}
+.enlace-plans {
+  text-decoration: none;
+  background-color: rgb(230, 78, 78);
+  color: white;
+  font-size: 25px;
+  padding: 10px 70px;
+  box-shadow: 9px 9px 0px 0px rgb(245, 193, 193);
+  font-weight: bold;
+}
+.seefree{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 31%;
+  border: none;
+}
+.enlace-free {
+color: black;
+text-decoration: none;
+background-color: white;
+padding: 10px 70px;
+font-size: 25px;
+font-weight: bold;
+}
+#bring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  
+}
+#bring svg {
+  width: 300px;
+  height: 300px;
+}
+#bring h2 {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgba(231, 216, 165, 0.966);
+  transform: skew(10deg,0deg);
+  padding: 0px 40px;
+  font-style: italic;
+  font-weight: bold;
+  }
+#bring p {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+#create svg {
+  width: 50px;
+  height: 50px;
+}
+#create {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 200px;
+  margin: auto
+
+  
+}
+#create h3 {
+  color: red;
+}
+.div1 {
+  margin: 0px 40px;
+}
+.div2 {
+  margin: 0px 40px;
+}
+.div3 {
+  margin: 0px 40px;
+}
+.div4 {
+  margin: 0px 40px;
+}
+.org {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px;
+  margin: auto;
+  width: 25%;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 9px 9px 0px rgb(214, 213, 213);
+}
+.final {
+text-align: center;
+display: flex;
+margin-top: 50px;
+margin-bottom: 30px;
+
+
+}
